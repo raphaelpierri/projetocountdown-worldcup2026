@@ -9,13 +9,14 @@ get _actualDate() {
 
 get _futureDate() {
     return new Date(this.futureDate)
-}
+}      
 
 get _timeStampDiff() {
     return this._futureDate.getTime() - this._actualDate.getTime()
 }
 
 get days() {
+
     return Math.floor(this._timeStampDiff / (24 * 60 * 60 * 1000))
 }
 
@@ -30,6 +31,7 @@ get minutes() {
 get seconds() {
     return Math.floor(this._timeStampDiff / 1000)
 }
+
 
 get total () {
     const days = this.days

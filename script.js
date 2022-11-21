@@ -1,6 +1,6 @@
 import Countdown from "./countdown.js";
 
-const tempoParaACopa = new Countdown ('20 November 2022 12:59:59 GMT-0300')
+const tempoParaACopa = new Countdown ('03 June 2026 12:59:59 GMT-0300')
 
 let daysEl = document.getElementById('days')
 let hoursEl = document.getElementById('hours')

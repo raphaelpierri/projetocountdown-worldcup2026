@@ -43,4 +43,5 @@ get total () {
         seconds,
     }
 }
+
 }

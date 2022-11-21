@@ -9,13 +9,14 @@ get _actualDate() {
 
 get _futureDate() {
     return new Date(this.futureDate)
-}
+}      
 
 get _timeStampDiff() {
     return this._futureDate.getTime() - this._actualDate.getTime()
 }
 
 get days() {
+
     return Math.floor(this._timeStampDiff / (24 * 60 * 60 * 1000))
 }
 
@@ -31,6 +32,7 @@ get seconds() {
     return Math.floor(this._timeStampDiff / 1000)
 }
 
+
 get total () {
     const days = this.days
     const hours = this.hours % 24
@@ -43,5 +45,9 @@ get total () {
         seconds,
     }
 }
+<<<<<<< HEAD
 
 }
+=======
+}
+>>>>>>> 86ffbda0b9781598ad5f85863bea65c453d23ab3

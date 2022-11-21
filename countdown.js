@@ -45,9 +45,4 @@ get total () {
         seconds,
     }
 }
-<<<<<<< HEAD
-
 }
-=======
-}
->>>>>>> 86ffbda0b9781598ad5f85863bea65c453d23ab3

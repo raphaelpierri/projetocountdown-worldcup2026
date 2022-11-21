@@ -1,4 +1,4 @@
-# projetocountdown-worldcup2022
+# projetocountdown-worldcup2022 (Atualizado para a copa de 2026)
 
 
 -------Link para visualizar o projeto:---------

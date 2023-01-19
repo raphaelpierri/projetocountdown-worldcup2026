@@ -16,7 +16,7 @@ get _timeStampDiff() {
 }
 
 get days() {
-
+asdopkas
     return Math.floor(this._timeStampDiff / (24 * 60 * 60 * 1000))
 }
 
